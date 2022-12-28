@@ -1,0 +1,64 @@
+.padaria{
+    
+    padding: 3rem 0;
+}
+.padaria__conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: conteudo;
+    padding: 1rem 0;
+}
+.padaria__cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.padaria__card___titulo{
+    margin-top: 1em;
+    font-size: 24px;
+}
+.padaria__card___data{
+    color: #cfc7c7;
+}
+.padaria__card{
+    background: #ffffff;
+    display: grid;
+    grid-template-areas:
+         "card-imagem"
+         "card-corpo";
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto; 
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: calc(20% - 1rem);    
+}
+.padaria__img {
+    grid-area: card-imagem;
+    height: 100%;
+    width: 100%;
+}
+.padaria__card___corpo{
+    display: grid;
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+       "card-cabecalho"
+       "card-conteudo";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+
+}
+.padaria__card___descricao{
+    text-align: justify;
+}
+.padaria__card___titulo:hover{
+    color: #a50b0b;
+}
+.rodape {
+    background-image: url(img/panificação.jpeg);    
+    text-align: center;
+    grid-area: rodape;
+    padding: 1em;
+    font-size: 20px;
+}

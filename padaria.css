@@ -1,0 +1,23 @@
+.cabecalho{
+    background-image: url(img/panificação.jpeg);    
+}
+.cabecalho-menu{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;   
+}
+.anuncio{
+    text-align: center;
+    color: red;
+    font-size: 50px;    
+}
+.valor{
+    color: red;
+    font-size: 50px;
+}
+body{
+    background-image: url(img/padaria.jpeg);
+}
+.descricao-anuncio{
+    font-size: 20px;
+}

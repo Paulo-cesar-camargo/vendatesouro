@@ -1,0 +1,22 @@
+@media screen and (max-width:411px){
+    .padaria__conteudo{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+        .padaria__card{
+            width: 100%;
+        }
+        .dpadaria__principal{
+            background: url('../img/fortnite.jpg') center / cover no-repeat;
+            grid-column: 1 / 5;/*modo abreveado*/
+            grid-row: 1 / 3;
+        }
+        .cabecalho-menu{
+            display: block;   
+        }
+       }
+       .padaria__categorias{
+        display: none;
+       }
+       
